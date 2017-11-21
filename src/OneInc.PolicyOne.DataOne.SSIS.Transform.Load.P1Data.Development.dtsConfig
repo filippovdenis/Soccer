@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+  <DTSConfigurationHeading>
+    <DTSConfigurationFileInfo GeneratedBy="INTRANET\sergeyl" GeneratedFromPackageName="OneInc.PolicyOne.DataOne.SSIS.Transform.Load.P1Data.dtsx" GeneratedFromPackageID="{30C19F01-6C4C-4716-A231-9E31E5593712}" GeneratedDate="1/11/2011 1:45:09 PM"/>
+  </DTSConfigurationHeading>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_installationFolder].Properties[Value]" ValueType="String">
+    <ConfiguredValue>P:\policyone.dataone\OneInc.PolicyOne.DataOne.SSIS\OneInc.PolicyOne.DataOne.SSIS.Transform.Load.P1Data\</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_installationName].Properties[Value]" ValueType="String">
+    <ConfiguredValue>P1 D1 Transform Load(DC Dev)</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_notificationEmail].Properties[Value]" ValueType="String">
+    <ConfiguredValue>vmalutin@oneinc.com</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_DataOne_DDS_DB_ConnectionString].Properties[Value]" ValueType="String">
+    <ConfiguredValue>Server=localhost;Initial Catalog=PolicyOneDDS_PG_old;Integrated Security=SSPI;Provider=SQLNCLI11</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_SMTPServer].Properties[Value]" ValueType="String">
+    <ConfiguredValue>mail.intranet.local</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_Process_DailyDataMart].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>False</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_Process_MonthlyDataMart].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>True</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_Process_FinancialMonthlyDataMart].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>True</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_Process_TransactionalDataMart].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>True</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_ProcessClaims].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>True</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_SendLetters].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>False</ConfiguredValue>
+  </Configuration>
+  <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_CreateColumnstoreIndexes].Properties[Value]" ValueType="Boolean">
+    <ConfiguredValue>False</ConfiguredValue>
+  </Configuration>
+</DTSConfiguration>
