@@ -13,7 +13,7 @@
     <ConfiguredValue>vmalutin@oneinc.com</ConfiguredValue>
   </Configuration>
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_DataOne_DDS_DB_ConnectionString].Properties[Value]" ValueType="String">
-    <ConfiguredValue>Server=localhost;Initial Catalog=PolicyOneDDS_PG_old;Integrated Security=SSPI;Provider=SQLNCLI11</ConfiguredValue>
+    <ConfiguredValue>Server=$ServerForReplace;Initial Catalog=$DBForReplace;Integrated Security=SSPI;Provider=SQLNCLI11</ConfiguredValue>
   </Configuration>
   <Configuration ConfiguredType="Property" Path="\Package.Variables[User::config_SMTPServer].Properties[Value]" ValueType="String">
     <ConfiguredValue>mail.intranet.local</ConfiguredValue>
