@@ -8,7 +8,7 @@ set policyOnePath=d:\Projects\policyone.dataone\OneInc.PolicyOne.DataOne.Liquiba
 
 cd /d %policyOnePath%
 (
-  echo url=jdbc:sqlserver://localhost;databaseName=PolicyOneDDS_Sierra_new
+  echo url=jdbc:sqlserver://$ServerForReplace;databaseName=$DBForReplace
   echo username=policyone
   echo password=policyone
   echo classpath=c:\\Program Files ^(x86^)\\Microsoft SQL Server JDBC Driver 6.0\\sqljdbc42.jar
